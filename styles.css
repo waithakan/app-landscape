@@ -1,0 +1,93 @@
+:root {
+    --purple: #814896;
+    --pink: #F83292;
+    --gradient:linear-gradient(90deg, var(var--purple), var(var(--pink)))
+}
+* {
+    font-family: 'puppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-transform: capitalize;
+}
+
+*::selection {
+    background-color: var(--pink);
+    color: #fff;
+
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body {
+    background-color: #f9f9f9;
+    display: inline-block;
+    margin-top: 1rem;
+    pad: 0rem 3rem;
+    border-radius: 5rem;
+    background:var(--gradient);
+    font-size: ;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1080;
+}
+header .logo {
+    font-size: 2rem;
+    color: var(--purple);
+}
+header .logo span {
+    color: var(--pink);
+
+}
+header .navbar a {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color: var(--pink);
+    text-decoration: none;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/***);
+    background-size: cover;
+    background-position: center;
+}
+.home .image img {
+    width: 40vw;
+    animation: float 3s linear infinite;
+}
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem)
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
+}
+hkujr
+    {
+        font-size: 5.5rem;
+        color: #333;
+        text-transform: capitalize;
+
+    }
+    .home .content span {
+        color: var(--pink);
+        text-transform:uppercase;
+
+    }
+    .home .content p {
+        
+    }
